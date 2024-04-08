@@ -1,0 +1,275 @@
+* {
+    margin-left: 10px;
+}
+
+.logo {
+    display: inline;
+}
+.navbar{
+    background-color: rgb(185, 113, 252);
+    background: linear-gradient(to right, #b472fc, #fc7c92, #b472fc);
+}   
+main{
+    margin-left: 40px;
+}
+.Perfil{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+.wrapper{
+    margin: 50px auto;
+    width: 70%;
+}
+.wrapper img{
+    max-width: 50%;
+    float: left;
+    border: 2px solid #fc7c92;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.TextBox{
+    font-size: 42px;
+}
+.TextBox p{
+    font-size: 25px;
+    margin-bottom: 150px;
+}
+/*.ContainerFlor {
+    margin-top: 80px;
+    margin-bottom: 180px;
+    text-align: center;
+}
+.flor {
+    display: inline-block;
+    vertical-align: middle;
+    word-wrap: break-word;
+}
+.flor h1 {
+    width: 400px;
+    text-align: left;
+}
+.flor p {
+    width: 400px;
+    font-size: 20px;
+    text-align: left;
+}*/
+
+.ContainerIcon {
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    bottom: 13%;
+}
+.ContainerIcon p {
+    margin-left: 20px;
+    margin-bottom: 80px;
+    transform: rotate(-270deg);
+    transform-origin: left bottom;
+    width: 80px;
+}
+.ContainerIcon a img {
+    margin-left: 10px;
+    height: 20px;
+    width: 20px;
+}
+
+.titulo1 {
+    text-align: left;
+}
+
+.ContainerYoSoy {
+    height: 350px;
+    text-align: center;
+}
+.ContainerYoSoy h1 {
+    text-align: left;
+}
+.YoSoy {
+    display: inline-block;
+    vertical-align: middle;
+}
+.YoSoy p {
+    display: inline-block;
+    width: 300px;
+    text-align: left;
+}
+.YoSoyIma {
+    display: inline-block;
+    vertical-align: middle;
+    width: 25%;
+    margin-right: 50px;
+}
+
+.ContainerBotones {
+    text-align: center;
+    margin-top: 50px;
+}
+.botones {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 30px;
+    text-align: center;
+    flex-direction: column;
+}
+.botones button {
+    color: black;
+    background-color: rgb(254, 189, 228);
+    border-radius: 7px;
+    border-color: none;
+    margin: 30px;
+    width:fit-content;
+}
+
+.galeria{
+    display: grid;
+    grid-template-columns: repeat(1, 250px);
+    grid-template-rows: repeat(6, 200px);
+    justify-content: center;
+    padding: 20px;
+    grid-gap: 30px;
+    margin-bottom: 180px;
+}
+.item{
+    background-size: cover;
+    background-position: center;
+}
+.item1{
+    background-image: url(media/gal\ 1.jpg);
+}
+.item2{
+    background-image: url(media/gal\ 2.jpg);
+}
+.item3{
+    background-image: url(media/gal\ 3.jpg);
+}
+.item4{
+    background-image: url(media/gal\ 4.jpg);
+}
+.item5{
+    background-image: url(media/gal\ 5.jpg);
+}
+.item6{
+    background-image: url(media/gal\ 6.jpg);
+}
+
+/*Aquí empiezan las media queries*/
+@media only screen and (min-width:480px){
+    .galeria{
+        grid-template-columns: repeat(2, 250px);
+        grid-template-rows: repeat(3, 200px);
+        margin-bottom: 150px;
+    }
+    .ContainerBotones {
+        text-align: start;
+        margin-top: 50px;
+    }
+    .botones{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin: 30px;
+        justify-content: center;
+        flex-direction: row;
+    }
+}
+@media only screen and (min-width:768px){
+    .galeria{
+        grid-template-columns: repeat(3, 250px);
+        grid-template-rows: repeat(2, 200px);
+        margin-bottom: 150px;
+    }
+    .ContainerBotones {
+        text-align: start;
+        margin-top: 50px;
+    }
+    .botones{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin: 30px;
+        justify-content: center;
+        flex-direction: row;
+    }
+}
+/*Aquí finalizan las media queries*/
+
+.ContainerTable {
+    margin-top: 80px;
+    text-align: center;
+}
+.ContainerTable h1 {
+    text-align: left;
+    margin-bottom: 50px;
+}
+table {
+    display: inline;
+    border-spacing: 10px 0;
+}
+th {
+    margin: 0 auto;
+    text-align: left;
+}
+td div {
+    background-color: rgb(254, 189, 228);
+    margin: 5px;
+    height: auto;
+    width: 250px;
+    padding: 7px;
+    text-align: left;
+}
+td {
+    border-left: 3px solid rgb(187, 186, 186);
+}
+
+.SkillSection {
+    text-align: center;
+    margin-top: 100px;
+}
+.SkillSection h1 {
+    margin-bottom: 120px;
+    text-align: left;
+}
+.ColumnOfSkills {
+    display: inline-block;
+    width: 250px;
+}
+.ContainerSkillProgress {
+    width: 250px;
+}
+.ContainerSkillProgress h3 {
+    width: 250px;
+    text-align: left;
+}
+
+.ProgressBar {
+    border: 1px solid salmon;
+    width: 250px;
+}
+.Relleno {
+    height: 10px;
+    width: 50%;
+    background-color: pink;
+    margin-left: 0;
+}
+.s100 {
+    width: 100%;
+}
+.s70 {
+    width: 70%;
+}
+.s50 {
+    width: 50%;
+}
+.s30 {
+    width: 30%;
+}
+footer{
+    background-color: rgb(185, 113, 252);
+    background: linear-gradient(to right, #b472fc, #fc7c92, #b472fc);
+    margin-top: 250px;
+}
