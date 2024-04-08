@@ -1,6 +1,17 @@
 * {
     margin-left: 10px;
 }
+html {
+    margin: 0;
+}
+
+header {
+    margin-left: 0;
+}
+
+nav {
+    margin-left: 0;
+}
 
 .logo {
     display: inline;
@@ -84,6 +95,7 @@ main{
 .ContainerYoSoy {
     height: 350px;
     text-align: center;
+    margin-top: 50px;
 }
 .ContainerYoSoy h1 {
     text-align: left;
@@ -91,6 +103,7 @@ main{
 .YoSoy {
     display: inline-block;
     vertical-align: middle;
+    margin-top: 50px;
 }
 .YoSoy p {
     display: inline-block;
@@ -102,6 +115,7 @@ main{
     vertical-align: middle;
     width: 25%;
     margin-right: 50px;
+    margin-top: 50px;
 }
 
 .ContainerBotones {
@@ -139,22 +153,22 @@ main{
     background-position: center;
 }
 .item1{
-    background-image: url(media/gal\ 1.jpg);
+    background-image: url(../assets/media/gal\ 1.jpg);
 }
 .item2{
-    background-image: url(media/gal\ 2.jpg);
+    background-image: url(../assets/media/gal\ 2.jpg);
 }
 .item3{
-    background-image: url(media/gal\ 3.jpg);
+    background-image: url(../assets/media/gal\ 3.jpg);
 }
 .item4{
-    background-image: url(media/gal\ 4.jpg);
+    background-image: url(../assets/media/gal\ 4.jpg);
 }
 .item5{
-    background-image: url(media/gal\ 5.jpg);
+    background-image: url(../assets/media/gal\ 5.jpg);
 }
 .item6{
-    background-image: url(media/gal\ 6.jpg);
+    background-image: url(../assets/media/gal\ 6.jpg);
 }
 
 /*Aquí empiezan las media queries*/
@@ -272,4 +286,5 @@ footer{
     background-color: rgb(185, 113, 252);
     background: linear-gradient(to right, #b472fc, #fc7c92, #b472fc);
     margin-top: 250px;
+    margin-left: 0;
 }
