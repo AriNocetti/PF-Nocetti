@@ -8,7 +8,7 @@ html {
 header {
     margin-left: 0;
 }
-
+/*navbar---------------------------------------------------------------------------------------*/
 nav {
     margin-left: 0;
 }
@@ -20,6 +20,7 @@ nav {
     background-color: rgb(185, 113, 252);
     background: linear-gradient(to right, #b472fc, #fc7c92, #b472fc);
 }   
+/*index---------------------------------------------------------------------------------------*/
 main{
     margin-left: 40px;
     margin-top: 70px;
@@ -49,7 +50,7 @@ main{
     font-size: 25px;
     margin-bottom: 150px;
 }
-
+/*follow me---------------------------------------------------------------------------------------*/
 .ContainerIcon {
     margin-bottom: 100px;
     display: flex;
@@ -69,32 +70,28 @@ main{
     height: 20px;
     width: 20px;
 }
-
-.titulo1 {
-    text-align: left;
-}
-
-.ContainerYoSoy h1{
+/*About me---------------------------------------------------------------------------------------*/
+.ContainerAboutMe h1{
     margin-top: 70px;
     text-align: left;
 }
-.Yo{
+.Me{
     margin-bottom: 150px;
     margin-top: 80px;
 }
-.Yo p{
+.Me p{
     font-size: 25px;
     margin-bottom: 220px;
     margin-left: 50px;
     margin-right: 20px;
 }
-.YoSoyIma{
+.AboutMeIma{
     float: right;
     max-width: 60%;
     margin-left: 20px;
     margin-right: 50px;
 }
-
+/*proyects botones---------------------------------------------------------------------------------------*/
 .ContainerBotones {
     text-align: center;
     margin-top: 70px;
@@ -115,7 +112,7 @@ main{
     margin: 30px;
     width:fit-content;
 }
-
+/*proyects galeria---------------------------------------------------------------------------------------*/
 .galeria{
     display: grid;
     grid-template-columns: repeat(1, 250px);
@@ -188,7 +185,7 @@ main{
     }
 }
 /*Aquí finalizan las media queries*/
-
+/*my resume---------------------------------------------------------------------------------------*/
 .container1{
     overflow: scroll;
 }
@@ -216,7 +213,7 @@ main{
     border-left: 3px solid rgb(66, 66, 66);
     background-color: rgb(254, 189, 228);
 }
-
+/*skills---------------------------------------------------------------------------------------*/
 .ContainerSkills{
     margin-bottom: 200px;
 }
@@ -240,7 +237,7 @@ main{
     background-color: rgb(254, 189, 228);
     margin-left: 0;
 }
-
+/*footer---------------------------------------------------------------------------------------*/
 footer{
     background-color: rgb(185, 113, 252);
     background: linear-gradient(to right, #b472fc, #fc7c92, #b472fc);
