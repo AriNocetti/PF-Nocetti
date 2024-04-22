@@ -22,6 +22,7 @@ nav {
 }   
 main{
     margin-left: 40px;
+    margin-top: 70px;
 }
 .Perfil{
     box-sizing: border-box;
@@ -48,25 +49,6 @@ main{
     font-size: 25px;
     margin-bottom: 150px;
 }
-/*.ContainerFlor {
-    margin-top: 80px;
-    margin-bottom: 180px;
-    text-align: center;
-}
-.flor {
-    display: inline-block;
-    vertical-align: middle;
-    word-wrap: break-word;
-}
-.flor h1 {
-    width: 400px;
-    text-align: left;
-}
-.flor p {
-    width: 400px;
-    font-size: 20px;
-    text-align: left;
-}*/
 
 .ContainerIcon {
     margin-bottom: 100px;
@@ -93,7 +75,7 @@ main{
 }
 
 .ContainerYoSoy h1{
-    margin-top: 50px;
+    margin-top: 70px;
     text-align: left;
 }
 .Yo{
@@ -115,7 +97,7 @@ main{
 
 .ContainerBotones {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 70px;
 }
 .botones {
     display: flex;
@@ -207,15 +189,15 @@ main{
 }
 /*Aquí finalizan las media queries*/
 
-.container{
+.container1{
     overflow: scroll;
 }
-.container h1{
-    margin-top: 70px;
+.container1 h1{
+    margin-top: 20px;
 }
 .table {
     text-align: center;
-    width: 500px;
+    width: 600px;
     margin: 80px auto 200px auto;
 }
 .container th{
@@ -244,7 +226,7 @@ main{
     margin-left: 100px;
 }
 .ProgressBar h1{
-    margin-top: 70px;
+    margin-top: 30px;
 }
 .ProgressBar h3{
     margin-top: 70px;
