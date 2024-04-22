@@ -92,30 +92,25 @@ main{
     text-align: left;
 }
 
-.ContainerYoSoy {
-    height: 350px;
-    text-align: center;
+.ContainerYoSoy h1{
     margin-top: 50px;
-}
-.ContainerYoSoy h1 {
     text-align: left;
 }
-.YoSoy {
-    display: inline-block;
-    vertical-align: middle;
-    margin-top: 50px;
+.Yo{
+    margin-bottom: 150px;
+    margin-top: 80px;
 }
-.YoSoy p {
-    display: inline-block;
-    width: 300px;
-    text-align: left;
+.Yo p{
+    font-size: 25px;
+    margin-bottom: 220px;
+    margin-left: 50px;
+    margin-right: 20px;
 }
-.YoSoyIma {
-    display: inline-block;
-    vertical-align: middle;
-    width: 25%;
+.YoSoyIma{
+    float: right;
+    max-width: 60%;
+    margin-left: 20px;
     margin-right: 50px;
-    margin-top: 50px;
 }
 
 .ContainerBotones {
@@ -212,76 +207,58 @@ main{
 }
 /*Aquí finalizan las media queries*/
 
-.ContainerTable {
-    margin-top: 80px;
-    text-align: center;
+.container{
+    overflow: scroll;
 }
-.ContainerTable h1 {
+.container h1{
+    margin-top: 70px;
+}
+.table {
+    text-align: center;
+    width: 500px;
+    margin: 80px auto 200px auto;
+}
+.container th{
     text-align: left;
     margin-bottom: 50px;
 }
-table {
-    display: inline;
-    border-spacing: 10px 0;
-}
-th {
+.table th{
     margin: 0 auto;
-    text-align: left;
 }
-td div {
-    background-color: rgb(254, 189, 228);
+.table-danger td{
     margin: 5px;
     height: auto;
     width: 250px;
     padding: 7px;
     text-align: left;
-}
-td {
-    border-left: 3px solid rgb(187, 186, 186);
+    border-left: 3px solid rgb(66, 66, 66);
+    background-color: rgb(254, 189, 228);
 }
 
-.SkillSection {
-    text-align: center;
-    margin-top: 100px;
+.ContainerSkills{
+    margin-bottom: 200px;
 }
-.SkillSection h1 {
-    margin-bottom: 120px;
-    text-align: left;
-}
-.ColumnOfSkills {
+.ProgressBar{
+    width: 450px;
     display: inline-block;
-    width: 250px;
+    margin-left: 100px;
 }
-.ContainerSkillProgress {
-    width: 250px;
+.ProgressBar h1{
+    margin-top: 70px;
 }
-.ContainerSkillProgress h3 {
-    width: 250px;
-    text-align: left;
+.ProgressBar h3{
+    margin-top: 70px;
 }
-
-.ProgressBar {
+.progress{
+    background-color: white;
+    text-align: center;
     border: 1px solid salmon;
-    width: 250px;
 }
-.Relleno {
-    height: 10px;
-    width: 50%;
-    background-color: pink;
+.progress-bar{
+    background-color: rgb(254, 189, 228);
     margin-left: 0;
 }
-.s100 {
-    width: 100%;
-}
-.s70 {
-    width: 70%;
-}
-.s50 {
-    width: 50%;
-}
-.s30 {
-    width: 30%;
-}
+
 footer{
     background-color: rgb(185, 113, 252);
     background: linear-gradient(to right, #b472fc, #fc7c92, #b472fc);
