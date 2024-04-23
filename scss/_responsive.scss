@@ -1,0 +1,38 @@
+@media only screen and (min-width:480px){
+    .galeria{
+        grid-template-columns: repeat(2, 250px);
+        grid-template-rows: repeat(3, 200px);
+        margin-bottom: 150px;
+    }
+    .ContainerBotones {
+        text-align: start;
+        margin-top: 50px;
+    }
+    .botones{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin: 30px;
+        justify-content: center;
+        flex-direction: row;
+    }
+}
+@media only screen and (min-width:768px){
+    .galeria{
+        grid-template-columns: repeat(3, 250px);
+        grid-template-rows: repeat(2, 200px);
+        margin-bottom: 150px;
+    }
+    .ContainerBotones {
+        text-align: start;
+        margin-top: 50px;
+    }
+    .botones{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin: 30px;
+        justify-content: center;
+        flex-direction: row;
+    }
+}
