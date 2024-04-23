@@ -190,11 +190,11 @@ main .Perfil .wrapper .TextBox p {
   }
 }
 footer {
-  color: white;
   background-color: rgb(185, 113, 252);
   background: linear-gradient(to right, #b472fc, #fc7c92, #b472fc);
   margin-top: 250px;
   margin-left: 0;
+  color: white;
 }
 
 .ContainerIcon {
