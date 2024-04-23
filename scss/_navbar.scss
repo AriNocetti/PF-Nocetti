@@ -1,0 +1,7 @@
+nav {
+    margin-left: 0;
+    .navbar{
+        background-color: map-get($paleta-colores , fondo);
+        background: map-get($paleta-colores, degrade);
+    }
+}
