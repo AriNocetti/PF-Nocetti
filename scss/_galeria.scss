@@ -17,18 +17,18 @@
             width:fit-content;
         }
     }
-}
-.galeria{
-    display: grid;
-    grid-template-columns: repeat(1, 250px);
-    grid-template-rows: repeat(6, 200px);
-    justify-content: center;
-    padding: 20px;
-    grid-gap: 30px;
-    margin-bottom: 180px;
-    .item{
-        background-size: cover;
-        background-position: center;
+    .galeria{
+        display: grid;
+        grid-template-columns: repeat(1, 250px);
+        grid-template-rows: repeat(6, 200px);
+        justify-content: center;
+        padding: 20px;
+        grid-gap: 30px;
+        margin-bottom: 180px;
+        .item{
+            background-size: cover;
+            background-position: center;
+        }
         .item1{
             background-image: url(../assets/media/gal\ 1.jpg);
         }
@@ -49,3 +49,4 @@
         }
     }
 }
+

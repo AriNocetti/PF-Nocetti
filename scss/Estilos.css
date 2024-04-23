@@ -101,7 +101,7 @@ header {
 nav {
   margin-left: 0;
 }
-nav .navbar {
+nav.navbar {
   background-color: rgb(185, 113, 252);
   background: linear-gradient(to right, #b472fc, #fc7c92, #b472fc);
 }
