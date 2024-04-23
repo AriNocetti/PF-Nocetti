@@ -1,3 +1,5 @@
+
+
 .ContainerBotones{
     text-align: $center;
     margin-top: 70px;
@@ -25,6 +27,12 @@
         padding: 20px;
         grid-gap: 30px;
         margin-bottom: 180px;
+        // @media only screen and (min-width:480px){
+        //     grid-template-columns: repeat(2, 250px);
+        //     grid-template-rows: repeat(3, 200px);
+        //     margin-bottom: 150px;
+        // }
+
         .item{
             background-size: cover;
             background-position: center;
@@ -50,3 +58,46 @@
     }
 }
 
+@media only screen and (min-width:480px){
+    .ContainerBotones {
+        text-align: start;
+        margin-top: 50px;
+
+        .galeria{
+            grid-template-columns: repeat(2, 250px);
+            grid-template-rows: repeat(3, 200px);
+            margin-bottom: 150px;
+        }
+
+        .botones{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            margin: 30px;
+            justify-content: center;
+            flex-direction: row;
+        }
+    }
+}
+
+@media only screen and (min-width:768px){
+    .ContainerBotones {
+        text-align: start;
+        margin-top: 50px;
+
+        .galeria{
+            grid-template-columns: repeat(3, 250px);
+            grid-template-rows: repeat(2, 200px);
+            margin-bottom: 150px;
+        }
+
+        .botones{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            margin: 30px;
+            justify-content: center;
+            flex-direction: row;
+        }
+    }
+}

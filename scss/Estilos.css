@@ -24,44 +24,6 @@
   background-color: rgb(254, 189, 228);
 }
 
-@media only screen and (min-width: 480px) {
-  .galeria {
-    grid-template-columns: repeat(2, 250px);
-    grid-template-rows: repeat(3, 200px);
-    margin-bottom: 150px;
-  }
-  .ContainerBotones {
-    text-align: start;
-    margin-top: 50px;
-  }
-  .botones {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    margin: 30px;
-    justify-content: center;
-    flex-direction: row;
-  }
-}
-@media only screen and (min-width: 768px) {
-  .galeria {
-    grid-template-columns: repeat(3, 250px);
-    grid-template-rows: repeat(2, 200px);
-    margin-bottom: 150px;
-  }
-  .ContainerBotones {
-    text-align: start;
-    margin-top: 50px;
-  }
-  .botones {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    margin: 30px;
-    justify-content: center;
-    flex-direction: row;
-  }
-}
 * {
   margin-left: 10px;
 }
@@ -157,8 +119,7 @@ main .Perfil .wrapper .TextBox p {
   width: -moz-fit-content;
   width: fit-content;
 }
-
-.galeria {
+.ContainerBotones .galeria {
   display: grid;
   grid-template-columns: repeat(1, 250px);
   grid-template-rows: repeat(6, 200px);
@@ -167,29 +128,67 @@ main .Perfil .wrapper .TextBox p {
   grid-gap: 30px;
   margin-bottom: 180px;
 }
-.galeria .item {
+.ContainerBotones .galeria .item {
   background-size: cover;
   background-position: center;
 }
-.galeria .item .item1 {
+.ContainerBotones .galeria .item1 {
   background-image: url(../assets/media/gal\ 1.jpg);
 }
-.galeria .item .item2 {
+.ContainerBotones .galeria .item2 {
   background-image: url(../assets/media/gal\ 2.jpg);
 }
-.galeria .item .item3 {
+.ContainerBotones .galeria .item3 {
   background-image: url(../assets/media/gal\ 3.jpg);
 }
-.galeria .item .item4 {
+.ContainerBotones .galeria .item4 {
   background-image: url(../assets/media/gal\ 4.jpg);
 }
-.galeria .item .item5 {
+.ContainerBotones .galeria .item5 {
   background-image: url(../assets/media/gal\ 5.jpg);
 }
-.galeria .item .item6 {
+.ContainerBotones .galeria .item6 {
   background-image: url(../assets/media/gal\ 6.jpg);
 }
 
+@media only screen and (min-width: 480px) {
+  .ContainerBotones {
+    text-align: start;
+    margin-top: 50px;
+  }
+  .ContainerBotones .galeria {
+    grid-template-columns: repeat(2, 250px);
+    grid-template-rows: repeat(3, 200px);
+    margin-bottom: 150px;
+  }
+  .ContainerBotones .botones {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 30px;
+    justify-content: center;
+    flex-direction: row;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .ContainerBotones {
+    text-align: start;
+    margin-top: 50px;
+  }
+  .ContainerBotones .galeria {
+    grid-template-columns: repeat(3, 250px);
+    grid-template-rows: repeat(2, 200px);
+    margin-bottom: 150px;
+  }
+  .ContainerBotones .botones {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 30px;
+    justify-content: center;
+    flex-direction: row;
+  }
+}
 footer {
   background-color: rgb(185, 113, 252);
   background: linear-gradient(to right, #b472fc, #fc7c92, #b472fc);
