@@ -4,4 +4,12 @@ footer{
     margin-top: 250px;
     margin-left: 0;
     color: white;
+    white-space: nowrap;
+    p{
+        white-space: nowrap;
+        a{
+            text-decoration: none;
+            color: white;
+        }
+    }
 }
