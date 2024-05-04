@@ -10,13 +10,15 @@
         h3{
             margin-top: 70px;
             margin-left: 30px;
+            text-align: center;
         }
         .progress{
-            width: 60%;
+            width: 50%;
             margin: 20px auto;
             background-color: white;
             text-align: $center;
             border: 1px solid $colorborder;
+            margin-bottom: 100px;
             .progress-bar{
                 background-color: $color1;
                 margin-left: 0;
