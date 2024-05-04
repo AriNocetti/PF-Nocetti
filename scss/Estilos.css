@@ -1,5 +1,7 @@
 .container2 h1 {
-  margin-top: 20px;
+  margin-top: 60px;
+  margin-left: 50px;
+  margin-bottom: 35px;
 }
 .container2 .filas {
   display: flex;
@@ -35,10 +37,11 @@ body {
   align-items: stretch;
 }
 .ContainerSkills .ProgressBar {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .ContainerSkills .ProgressBar h1 {
-  margin-top: 30px;
+  margin-top: 7px;
+  margin-left: 50px;
 }
 .ContainerSkills .ProgressBar h3 {
   margin-top: 70px;
@@ -98,6 +101,9 @@ main .Perfil .wrapper .TextBox p {
 .ContainerBotones {
   text-align: center;
   margin-top: 70px;
+}
+.ContainerBotones h1 {
+  margin-left: 50px;
 }
 .ContainerBotones .botones {
   display: flex;
@@ -230,7 +236,7 @@ footer p a {
 }
 
 .ContainerCarousel {
-  margin: 30px auto 0 auto;
+  margin: 0 auto;
   max-width: 500px;
   min-width: 300px;
 }
